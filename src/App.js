@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import $ from 'jquery';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     {/* Main Style CSS */}
     <link rel="stylesheet" href="assets/css/style.css" />
     {/* Modernizer JS */}
+    
     <header className="header-area">
       <div className="header-top bg-img" style={{backgroundImage:"url(assets/img/icon-img/header-shape.png)"}}>
         <div className="container">
@@ -1252,14 +1254,6 @@ function App() {
         </div>
       </div>
     </footer>
-    {/* JS
-============================================ */}
-    {/* jQuery JS */}
-    {/* Popper JS */}
-    {/* Bootstrap JS */}
-    {/* Plugins JS */}
-    {/* Ajax Mail */}
-    {/* Main JS */}
   </div>
   );
 }
